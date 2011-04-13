@@ -1,0 +1,40 @@
+{
+  "state" : {
+    "version" : 26,
+    "meta-data" : {
+      "templates" : {
+      },
+      "indices" : {
+        "models_tweet" : {
+          "state" : "open",
+          "settings" : {
+            "index.number_of_shards" : "5",
+            "index.number_of_replicas" : "1"
+          },
+          "mappings" : [ {
+            "models_tweet" : {
+              "properties" : {
+                "id" : {
+                  "type" : "long"
+                },
+                "text" : {
+                  "type" : "string"
+                },
+                "createdAt" : {
+                  "format" : "dateOptionalTime",
+                  "type" : "date"
+                },
+                "tweetId" : {
+                  "type" : "long"
+                },
+                "user" : {
+                  "type" : "string"
+                }
+              }
+            }
+          } ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>twitter</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.playframework.playclipse.playNature</nature>
+	</natures>
+	<linkedResources><link><name>elasticsearch-0.0.6</name><type>2</type><location>/Users/felipera/Downloads/play-1.1/modules/elasticsearch-0.0.6/app</location></link>
+<link><name>conf/elasticsearch-0.0.6</name><type>2</type><location>/Users/felipera/Downloads/play-1.1/modules/elasticsearch-0.0.6/conf</location></link>
+<link><name>crud</name><type>2</type><location>/Users/felipera/Downloads/play-1.1/modules/crud/app</location></link>
+<link><name>conf/crud</name><type>2</type><location>/Users/felipera/Downloads/play-1.1/modules/crud/conf</location></link>
+<link><name>public/crud</name><type>2</type><location>/Users/felipera/Downloads/play-1.1/modules/crud/public</location></link>
+</linkedResources>
+</projectDescription>

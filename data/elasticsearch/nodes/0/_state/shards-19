@@ -1,0 +1,26 @@
+{
+  "state" : {
+    "version" : 19,
+    "shards" : [ {
+      "index" : "models_tweet",
+      "id" : 3,
+      "version" : 19
+    }, {
+      "index" : "models_tweet",
+      "id" : 2,
+      "version" : 19
+    }, {
+      "index" : "models_tweet",
+      "id" : 1,
+      "version" : 19
+    }, {
+      "index" : "models_tweet",
+      "id" : 0,
+      "version" : 19
+    }, {
+      "index" : "models_tweet",
+      "id" : 4,
+      "version" : 19
+    } ]
+  }
+}
